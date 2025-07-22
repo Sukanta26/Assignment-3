@@ -152,7 +152,7 @@
       </div>
     </header>
 
-    <!-- Main Section-->
+    <!-- Main-->
     <main>
       <!-- Categories Card -->
       <div class="container mx-auto px-4 lg:px-8 lg:mt-32 mt-14">
@@ -241,7 +241,7 @@
           <!-- Products Cards -->
           <div class="lg:flex gap-6 mt-12 mb-14">
             <!-- Big Cards -->
-            <div class="bg-yellow-200 lg:max-w-96 p-4 rounded-lg">
+            <div class="bg-yellow-200 lg:max-w-96 p-4 rounded-lg lg:mb-0 mb-6">
               <div class="relative z-10 ml-2">
                 <h2 class="mt-8 mb-4 text-2xl font-adl">T- Shirt For Dogs</h2>
                 <p class="mb-4 text-gray-600">
@@ -531,34 +531,70 @@
             class="lg:flex lg:items-center rounded-lg gap-6 bg-gradient-to-r from-pink-200 to-blue-300"
           >
             <!-- Text -->
-            <div class="ml-20">
-              <h3 class="text-black text-xl mb-3">Under Price</h3>
-              <h1 class="text-black text-3xl font-adl mb-2">
+            <div class="lg:ml-20 ml-10 py-9">
+              <h3 class="text-black text-xl mb-3 hidden lg:block">Under Price</h3>
+              <h1 class="text-black lg:text-3xl text-2xl font-adl mb-2">
                 Pet Grooming Mitt
               </h1>
-              <h3 class="text-white text-2xl mb-4">(Easy Hair Removal)</h3>
-              <h1 class="text-black text-6xl font-adl">$7.99</h1>
+              <h3 class="text-white text-2xl mb-4 hidden lg:block">(Easy Hair Removal)</h3>
+              <h1 class="lg:text-black text-white lg:text-6xl text-4xl font-adl">$7.99</h1>
             </div>
             <!-- Image -->
-            <div>
+            <div class="ml-36">
               <img src="./image/cute-dog-mid.png" alt="" />
             </div>
           </div>
 
           <!-- Price card 2 -->
-          <div>
-            <div class="bg-yellow-200 p-4 rounded-lg">
-              <div class="relative z-10 ml-14">
-                <h2 class="mt-14 mb-4 text-3xl font-adl">T-Shirt for Dogs</h2>
-                <h1 class="text-yellow-400 text-6xl font-adl">$7.99</h1>
+          <div class="rounded-lg lg:mt-0 mt-6 bg-gradient-to-br from-white to-yellow-200">
+            <div class="p-4 ">
+              <div class="relative z-10 lg:ml-14 ml-2">
+                <h2 class="mt-14 mb-4 lg:text-3xl text-2xl font-adl">T-Shirt for Dogs</h2>
+                <h1 class="text-yellow-400 lg:text-6xl text-4xl font-adl">$7.99</h1>
               </div>
-              <figure class="w-full relative -mt-16">
-                <img class="ml-52" src="./image/cute-pet-mid.png" alt="cat" />
+              <figure class="w-full relative lg:-mt-16 -mt-10">
+                <img class="lg:ml-52 ml-8" src="./image/cute-pet-mid.png" alt="cat" />
               </figure>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer hero card -->
+      <div
+        class="px-8 bg-navbar-color container mx-auto relative rounded-lg mt-14 items-center justify-center"
+      >
+        <div class="lg:flex justify-around">
+          <img
+            src="./image/cute-pet-mid.png"
+            class="max-w-xl rounded-lg lg:my-9 px-20 py-8"
+          />
+
+          <!-- Text -->
+          <div class="">
+            <h1 class="text-3xl font-adl lg:mt-20">Get Pawsome News!</h1>
+            <p class="lg:mt-5 mt-3">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              type="email"
+              class="input bg-white lg:mt-9 mt-5 py-5 lg:ml-5"
+              placeholder="Enter Email"
+            />
+            <br />
+            <button
+              class="bg-primary-color rounded-lg px-4 py-2 lg:mt-14 mt-3 mb-8"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer logo -->
+    </footer>
   </body>
 </html>
