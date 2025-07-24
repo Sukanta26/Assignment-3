@@ -155,7 +155,7 @@
     <!-- Main-->
     <main>
       <!-- Categories Card -->
-      <div class="container mx-auto px-4 lg:px-8 lg:mt-32 mt-14">
+      <div class="container mx-auto px-4 lg:px-8 mt-14 lg:py-28">
         <h1 class="mb-12 text-3xl font-adl">Browse By Categories</h1>
         <!-- Card -->
         <div class="grid grid-cols-2 lg:grid-cols-6 gap-6">
@@ -235,7 +235,7 @@
       </div>
 
       <!-- Products Section -->
-      <div class="bg-navbar-color lg:py-12 lg:mt-32 mt-14 lg:mb-32">
+      <div class="bg-navbar-color lg:py-28 mt-14">
         <div class="container mx-auto px-4 lg:px-8">
           <h1 class="mt-12 text-3xl font-adl">Trending Pet Products</h1>
           <!-- Products Cards -->
@@ -520,7 +520,9 @@
       </div>
 
       <!-- Everyday Price Section -->
-      <div class="container grid lg:grid-cols-3 lg:grid-rows-1 mx-auto px-4 lg-px-8 gap-6">
+       <div class="container mx-auto px-4 lg-px-8 lg:py-28 py-14">
+        <h1 class="mb-12 text-3xl font-adl">Everyday low Price</h1>
+        <div class=" grid lg:grid-cols-3 lg:grid-rows-1  gap-6">
          <!-- Card-1 -->
             <div class="bg-gradient-to-br from-pink-300 to-blue-300 self-stretch lg:col-span-2 aspect-square lg:aspect-[2/1] relative p-4 rounded-lg">
               <div class="lg:flex lg:h-full lg:items-center">
@@ -557,35 +559,37 @@
               </figure>
             </div>
       </div>
+       </div>
+      
     </main>
 
     <!-- Footer -->
-    <footer class="mt-36">
+    <footer>
       <div>
       <!-- Footer hero card -->
       <div
         class="bg-navbar-color container mx-auto relative lg:px-8 px-4 rounded-lg mt-14 -mb-60"
       >
-        <div class="lg:flex lg:justify-around">
+        <div class="grid lg:grid-cols-2 items-center">
           <img
             src="./image/cute-dog-1.png"
             class="max-w-xl rounded-lg lg:my-9 px-20 py-8"
           />
 
           <!-- Text -->
-          <div class="">
-            <h1 class="text-3xl font-adl lg:mt-20">Get Pawsome News!</h1>
-            <p class="lg:mt-5 mt-3">
+          <div>
+            <h1 class="text-3xl font-adl">Get Pawsome News!</h1>
+            <p class="mt-5">
               Exclusive training tips, ticks, product deals and more.
             </p>
             <input
               type="email"
-              class="input bg-white lg:mt-9 mt-5 py-5 lg:ml-5"
+              class="input bg-white py-5 my-9"
               placeholder="Enter Email"
             />
             <br />
             <button
-              class="bg-primary-color rounded-lg px-4 py-2 lg:mt-14 mt-3 mb-8"
+              class="bg-primary-color rounded-lg px-4 py-2"
             >
               Subscribe
             </button>
@@ -606,7 +610,7 @@
               </div>
               <p class="text-slate-500 mt-6">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
             </nav>
-            <nav>
+            <nav class="gap-8">
               <a class="link link-hover">Find a pet</a>
               <a class="link link-hover">Breeds</a>
               <a class="link link-hover">Contact us</a>
